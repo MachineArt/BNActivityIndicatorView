@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BNActivityIndicatorView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="rhE-S4-F4n" userLabel="I">
+                                <rect key="frame" x="282" y="79" width="37" height="37"/>
+                                <color key="color" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="System Activity Indicator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sh4-us-qJ0">
+                                <rect key="frame" x="183" y="21" width="234" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="ZRt-pa-YZs"/>
+                                    <constraint firstAttribute="width" constant="234" id="ek4-4z-x6Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom Activity Indicator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0jX-vr-ivc">
+                                <rect key="frame" x="183" y="257" width="234" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="efT-hk-Wtb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3T2-xe-vq8">
+                                <rect key="frame" x="216" y="495" width="169" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="169" id="e7Q-4v-Ask"/>
+                                    <constraint firstAttribute="height" constant="47" id="hCp-NN-gJL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Stop Indicator"/>
+                                <connections>
+                                    <action selector="stopindicator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hts-Zb-vKi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3T2-xe-vq8" secondAttribute="bottom" constant="58" id="0UX-bu-sfo"/>
+                            <constraint firstItem="rhE-S4-F4n" firstAttribute="top" secondItem="sh4-us-qJ0" secondAttribute="bottom" constant="26" id="2pR-Y1-H64"/>
+                            <constraint firstItem="sh4-us-qJ0" firstAttribute="leading" secondItem="0jX-vr-ivc" secondAttribute="leading" id="A18-m2-Ppd"/>
+                            <constraint firstItem="0jX-vr-ivc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="257" id="BRz-mV-bKt"/>
+                            <constraint firstItem="sh4-us-qJ0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a6d-DS-COZ"/>
+                            <constraint firstItem="sh4-us-qJ0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="1" id="hie-Kw-6us"/>
+                            <constraint firstItem="0jX-vr-ivc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oy1-vf-UdF"/>
+                            <constraint firstItem="3T2-xe-vq8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="plv-W3-Fys"/>
+                            <constraint firstItem="rhE-S4-F4n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uze-vL-SOn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="361"/>
+        </scene>
+    </scenes>
+</document>
