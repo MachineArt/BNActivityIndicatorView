@@ -149,11 +149,9 @@
 				TargetAttributes = {
 					895D41C91C70332200642161 = {
 						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 0800;
 					};
 					895D41DD1C70332200642161 = {
 						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 0800;
 						TestTargetID = 895D41C91C70332200642161;
 					};
 				};
@@ -338,7 +336,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.BNActivityIndicatorView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -351,7 +348,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.BNActivityIndicatorView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -363,7 +359,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.BNActivityIndicatorViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BNActivityIndicatorView.app/BNActivityIndicatorView";
 			};
 			name = Debug;
@@ -376,7 +371,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.BNActivityIndicatorViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BNActivityIndicatorView.app/BNActivityIndicatorView";
 			};
 			name = Release;
