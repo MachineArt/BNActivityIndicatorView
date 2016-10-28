@@ -8,6 +8,7 @@
 
 import UIKit
 
+// Start AppDelegate
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
