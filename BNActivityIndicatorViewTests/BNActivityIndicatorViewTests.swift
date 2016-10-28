@@ -34,3 +34,5 @@ class BNActivityIndicatorViewTests: XCTestCase {
     }
     
 }
+
+// End BNActivityIndicatorViewTests
