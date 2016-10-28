@@ -9,6 +9,7 @@
 import XCTest
 @testable import BNActivityIndicatorView
 
+// Start BNActivityIndicatorViewTests
 class BNActivityIndicatorViewTests: XCTestCase {
     
     override func setUp() {
