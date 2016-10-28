@@ -63,4 +63,5 @@ class ViewController: UIViewController {
     }
     
 }
+// End BNActivityIndicatorViewTests
 
